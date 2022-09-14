@@ -1,0 +1,15 @@
+.header-content{
+    margin-top: 70px;
+    min-height: 40vh;
+    background: linear-gradient(rgba(103, 215, 65, 0.3), rgba(39, 174, 41, 0.5)), url("https://cdn.pixabay.com/photo/2016/02/16/21/07/books-1204029_1280.jpg") center/cover no-repeat;
+    flex-direction: column;
+}
+.header-title{
+    font-size: 4.2rem;
+}
+.header-text{
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+}
