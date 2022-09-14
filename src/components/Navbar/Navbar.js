@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import "./Navbar.css";
-import logoImg from "../../images/logo.png";
 import {HiOutlineMenuAlt3} from "react-icons/hi";
 
 const Navbar = () => {
@@ -14,7 +13,7 @@ const Navbar = () => {
         <div className='brand-and-toggler flex flex-sb'>
           <Link to = "/" className='navbar-brand flex'>
             
-            <span className='logo text-uppercase fw-7 fs-24 ls-1'>LOREM</span>
+            <span className='logo text-uppercase fw-7 fs-24 ls-1'>LOGO</span>
           </Link>
           <button type = "button" className='navbar-toggler-btn' onClick={handleNavbar}>
             <HiOutlineMenuAlt3 size = {35} style = {{
